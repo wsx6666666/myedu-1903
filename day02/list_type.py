@@ -14,8 +14,17 @@ def list_sel(a):
     # 不填值的话  取到最后一位
     print(a[3:])
 
+def list_del():
+    alist = ['a', 4, 'nihao', '8', '就是', '哈']
+    alist.pop()
+    print(alist)
+    alist.pop(0)
+    print(alist)
+
+
 
 if __name__ == '__main__':
     alist = ['a',4,'nihao','8','就是','哈']
-    list_sel(alist)
+    # list_sel(alist)
     # print(alist)
+    list_del()
