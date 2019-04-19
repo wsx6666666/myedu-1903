@@ -39,10 +39,20 @@ def list_add():
     alist.append(blist)
     print(alist)
 
+    # 元素更换位置
+
+# 更改list中的元素
+def list_update():
+    alist = ['a', 4, 'nihao', '8', '就是', '哈', '哈哈哈哈', [1, 2, 3]]
+    alist[0] = 5
+    print(alist)
+
+
 
 if __name__ == '__main__':
     alist = ['a',4,'nihao','8','就是','哈']
     # list_sel(alist)
     # print(alist)
     # list_del()
-    list_add()
+    # list_add()
+    list_update()
