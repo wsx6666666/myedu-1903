@@ -38,4 +38,4 @@ if __name__ == '__main__':
     # list_sel(alist)
     # print(alist)
     # list_del()
-    list_update()
+        list_update()
